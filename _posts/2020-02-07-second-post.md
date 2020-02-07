@@ -9,10 +9,10 @@ categories: Develop Design
 화면의 크기를 받아오는 코드는 다음과 같다.
 
 <pre>
-<code>
-Display display = getWindowManager().getDefaultDisplay();
-int width = display.getWidth();
-int height = display.getHeight();
-</code>
+    <code>
+        Display display = getWindowManager().getDefaultDisplay();
+        int width = display.getWidth();
+        int height = display.getHeight();
+    </code>
 </pre>
 
