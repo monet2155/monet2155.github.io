@@ -21,4 +21,4 @@ int height = display.getHeight();
 
 
 다음으로 TurnOnTheLights 프로젝트의 Door 오브젝트용 스프라이트를 만들었다.  
-![GreenDoor](
+![GreenDoor](/assets/images/GreenDoor.png){: width="40%" height="40%"}
