@@ -4,7 +4,7 @@ date: 2020-02-07 20:57:00 -0400
 categories: Develop Design
 ---
 
-대수 프로젝트를 수정했다.  
+안드로이드 대수 프로젝트를 수정했다.  
 좌 우 터치를 인식해 10의 지수가 작아지고 커지는 코드를 추가했다.  
 화면의 크기를 받아오는 코드는 다음과 같다.
 
@@ -12,16 +12,12 @@ categories: Develop Design
 Display display = getWindowManager().getDefaultDisplay();
 int width = display.getWidth();
 int height = display.getHeight();
----
+----
 
 화면의 크기를 받아온 후에는 Width를 반으로 나눈 값을 중간 픽셀값으로 저장하고, 터치이벤트에서 얻은 RawX값과 비교하면 된다.
 
 지킬에서 코드블럭을 사용하는 부분을 더 알아봐야겠다.  
-
-
 ------
-
-
 다음으로 TurnOnTheLights 프로젝트의 DoorBulb 오브젝트용 스프라이트를 만들었다.  
 
 ![GreenDoor](/assets/images/GreenDoor.png){: width="20%" height="20%"}
