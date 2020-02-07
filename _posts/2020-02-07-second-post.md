@@ -10,9 +10,8 @@ categories: Develop Design
 
 <pre>
     <code>
-        Display display = getWindowManager().getDefaultDisplay();
-        int width = display.getWidth();
-        int height = display.getHeight();
+        ```Display display = getWindowManager().getDefaultDisplay();
+        ```int width = display.getWidth();
+        ```int height = display.getHeight();
     </code>
 </pre>
-
