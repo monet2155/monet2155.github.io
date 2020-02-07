@@ -9,10 +9,14 @@ categories: Develop Design
 화면의 크기를 받아오는 코드는 다음과 같다.
 
 ---
+<pre>
+<code>
 Display display = getWindowManager().getDefaultDisplay();  
 int width = display.getWidth();  
 int height = display.getHeight();  
----
+</code>
+</pre>
+- - -
 
 화면의 크기를 받아온 후에는 Width를 반으로 나눈 값을 중간 픽셀값으로 저장하고, 터치이벤트에서 얻은 RawX값과 비교하면 된다.  
 지킬에서 코드블럭을 사용하는 부분을 더 알아봐야겠다.  
