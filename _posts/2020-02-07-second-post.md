@@ -16,6 +16,7 @@ int width = display.getWidth();
 int height = display.getHeight();  
 </code>
 </pre>
+
 - - -
 
 화면의 크기를 받아온 후에는 Width를 반으로 나눈 값을 중간 픽셀값으로 저장하고, 터치이벤트에서 얻은 RawX값과 비교하면 된다.  
