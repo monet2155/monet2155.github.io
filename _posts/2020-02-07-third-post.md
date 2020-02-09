@@ -16,21 +16,16 @@ DoorBulb의 중점은 터치되었을때 오브젝트가 하얀색이면 스테�
     {
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = gameManager.bulbSprites[(int)colorState];
     }
-```c#
+```
 - - -  
 
 DoorBulb 클래스의 ChangeBulbImage() 메서드는 다음과 같다.  
 - - -  
 ```c#
-<pre>
-<code>
-
     public override void ChangeBulbImage()
     {
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = GameManager.instance.doorBulbSprites[(int)colorState];
     }  
-</code>
-</pre>  
 ```
 - - -  
 이것으로 DoorBulb 의 스프라이트가 정상적으로 변경되었다.  
