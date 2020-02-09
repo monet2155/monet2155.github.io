@@ -11,30 +11,27 @@ Bulb 스크립트를 상속하는 DoorBulb 스크립트가 있다. 지난 개발
 DoorBulb의 중점은 터치되었을때 오브젝트가 하얀색이면 스테이지가 클리어 되는것이다.  
 이를 위해 지난 개발때 완성해둔 DoorBulb 스프라이트들을 GameManager에 public으로 넣었다. 또한, Bulb 클래스에 있던 ChangerBulbImage() 메서드를 virtual로 선언했다.  
 - - -  
-<pre>
-<code>
-` ` ` c#
+```c#
     public virtual void ChangeBulbImage()
     {
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = gameManager.bulbSprites[(int)colorState];
     }
-` ` `
-</code>
-</pre>  
+```c#
 - - -  
 
 DoorBulb 클래스의 ChangeBulbImage() 메서드는 다음과 같다.  
 - - -  
+```c#
 <pre>
 <code>
-` ` ` c#
+
     public override void ChangeBulbImage()
     {
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = GameManager.instance.doorBulbSprites[(int)colorState];
     }  
-` ` `
 </code>
 </pre>  
+```
 - - -  
 이것으로 DoorBulb 의 스프라이트가 정상적으로 변경되었다.  
 - - -  
