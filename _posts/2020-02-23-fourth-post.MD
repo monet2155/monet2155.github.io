@@ -10,3 +10,5 @@ HDD가 망가졌다. BIOS 세팅에서 S.M.A.R.T 를 끄고 부팅하니 HDD가 
 그중 하나가 VS Code이다. 현재 글 작성에도 사용하고 있으며, Git 연동과 Extension들이 굉장히 다양하고 활용성이 좋다.
 
 ---
+
+TurnOnTheLights(TOTL) 프로젝트를 수정하고, Door와 연동되는 Lock과 Key를 추가해 퍼즐게임의 요소를 더했다.
