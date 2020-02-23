@@ -10,7 +10,7 @@ HDD가 망가졌다. BIOS 세팅에서 S.M.A.R.T 를 끄고 부팅하니 HDD가 
 그중 하나가 VS Code이다. 현재 글 작성에도 사용하고 있으며, Git 연동과 Extension들이 굉장히 다양하고 활용성이 좋다.  
 나는 글 작성에 필요한 Date를 작성하는게 귀찮아 Insert Date String를 설치했다. Ctrl + Shift + I를 입력하면 다음과 같이 작성해준다.  
 2020-02-23 18:08:49
-######https://stackoverrun.com/ko/q/10686685
+###### [https://stackoverrun.com/ko/q/10686685](https://stackoverrun.com/ko/q/10686685)
 
 ---
 
