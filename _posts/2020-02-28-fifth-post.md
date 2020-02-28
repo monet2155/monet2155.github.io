@@ -10,7 +10,7 @@ categories: C# Unity Develop
 - - -  
 
 개발 중 다음 에러가 발생했다. 
-![Inspectorerror](/assets/images/Inspector_error.JPG){: width="60%" height="60%"}  
+![Inspectorerror](/assets/images/Inspector_error.JPG) 
 SerializedObjectNotCreatableException : Object at index 0 is null  
 구글링 결과 Inspector창이 여러개일 경우에 발생하며, 창을 닫았다가 몇 초 후에 열면 사라진다고 하지만, 작동하지 않아 유니티 에디터 자체를 끄니 정상적으로 사라졌다.  
 
